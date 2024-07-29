@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.77cbb2a7.css",
+    "main.js": "/portfolio/static/js/main.e33f256b.js",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.f7308c28be9802cd5349.pdf",
+    "static/media/sun.svg": "/portfolio/static/media/sun.2b4482b2e0a196b9051fb68d4c5839f5.svg",
+    "static/media/github-dark.svg": "/portfolio/static/media/github-dark.dd326b9d1397ddd12c766006b60b0a97.svg",
+    "static/media/github-light.svg": "/portfolio/static/media/github-light.f4a3dde7429c7db2d098ebfdb4175701.svg",
+    "static/media/moon.svg": "/portfolio/static/media/moon.ed543cd509fbf8189719af53ca6fbaad.svg",
+    "static/media/Resume-dark.svg": "/portfolio/static/media/Resume-dark.df5f000d09660c26e4963023936ca32b.svg",
+    "static/media/Resume-light.svg": "/portfolio/static/media/Resume-light.131757f6ffc0d6b20b571384dee29305.svg",
+    "static/media/linkedin-dark.svg": "/portfolio/static/media/linkedin-dark.4849f84a7e76fde3e7508ef828cf6d7b.svg",
+    "static/media/linkedin-light.svg": "/portfolio/static/media/linkedin-light.f52c806dae34fc7afae25af380bf8c66.svg",
+    "index.html": "/portfolio/index.html",
+    "main.77cbb2a7.css.map": "/portfolio/static/css/main.77cbb2a7.css.map",
+    "main.e33f256b.js.map": "/portfolio/static/js/main.e33f256b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77cbb2a7.css",
+    "static/js/main.e33f256b.js"
+  ]
+}
