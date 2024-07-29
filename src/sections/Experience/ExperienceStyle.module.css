@@ -1,0 +1,131 @@
+/* ExperienceStyle.module.css */
+
+/* Container for the experience section */
+.experienceContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title section styles */
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionHeadText {
+  font-size: 36px;
+  color: var(--text-color);
+}
+
+/* Timeline styles */
+.verticalTimelineWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.verticalTimelineElement {
+  width: 75%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #a74848; /* Change to your desired background color */
+  color: #fff; /* Change to your desired text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  position: relative;
+  padding: 20px;
+}
+
+.verticalTimelineElementContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.verticalTimelineElementArrow {
+  border-right: 7px solid #232631;
+  margin-right: -7px;
+}
+
+/* Style for the icon wrapper to ensure it fits into the circle */
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+}
+
+/* Style for the icon to ensure it fits within the circle and is cropped */
+.icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Timeline dot styles */
+.verticalTimelineElement::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: var(--text-color); /* Adjust color as needed */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Styles for left and right alignment of timeline items */
+.timelineItem {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.timelineItem.left .verticalTimelineElement {
+  margin-left: 20px;
+}
+
+.timelineItem.right .verticalTimelineElement {
+  margin-right: 20px;
+}
+
+/* Content styling */
+.title {
+  color: var(--text-color); /* Text color for job titles */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.companyName {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: semi-bold;
+  margin: 0;
+}
+
+.pointsList {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.point {
+  color: var(--text-color);
+  font-size: 14px;
+  margin-bottom: 10px;
+}

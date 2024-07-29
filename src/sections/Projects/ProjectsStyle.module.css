@@ -1,0 +1,24 @@
+.colorModeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.colorMode {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+h5 {
+  margin: 0 10px;
+}
+
+[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}

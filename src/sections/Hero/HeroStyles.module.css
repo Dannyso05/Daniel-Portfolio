@@ -1,0 +1,33 @@
+/* HeroStyles.module.css */
+.container {
+  width: fit-content;
+}
+/* Default (light) theme styles */
+.hero {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  /* padding-top: 100px; */
+}
+
+.colorModeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.info {
+  text-align: center;
+}
+
+[data-theme="light"] .info {
+  color: black;
+}
+
+[data-theme="dark"] .info {
+  color: white;
+}
+
+/* Add any additional theme-specific styles here */
