@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8218cf68.css",
-    "main.js": "/portfolio/static/js/main.08526ad0.js",
+    "main.css": "/portfolio/static/css/main.a91f2c25.css",
+    "main.js": "/portfolio/static/js/main.10bba4e8.js",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.f7308c28be9802cd5349.pdf",
     "static/media/sun.svg": "/portfolio/static/media/sun.2b4482b2e0a196b9051fb68d4c5839f5.svg",
     "static/media/github-dark.svg": "/portfolio/static/media/github-dark.dd326b9d1397ddd12c766006b60b0a97.svg",
@@ -12,11 +12,11 @@
     "static/media/linkedin-dark.svg": "/portfolio/static/media/linkedin-dark.4849f84a7e76fde3e7508ef828cf6d7b.svg",
     "static/media/linkedin-light.svg": "/portfolio/static/media/linkedin-light.f52c806dae34fc7afae25af380bf8c66.svg",
     "index.html": "/portfolio/index.html",
-    "main.8218cf68.css.map": "/portfolio/static/css/main.8218cf68.css.map",
-    "main.08526ad0.js.map": "/portfolio/static/js/main.08526ad0.js.map"
+    "main.a91f2c25.css.map": "/portfolio/static/css/main.a91f2c25.css.map",
+    "main.10bba4e8.js.map": "/portfolio/static/js/main.10bba4e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8218cf68.css",
-    "static/js/main.08526ad0.js"
+    "static/css/main.a91f2c25.css",
+    "static/js/main.10bba4e8.js"
   ]
 }
