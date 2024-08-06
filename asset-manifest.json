@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.26d3079e.css",
+    "main.css": "/portfolio/static/css/main.b3a4c273.css",
     "main.js": "/portfolio/static/js/main.c6b0d530.js",
     "static/media/AboutMe.jpg": "/portfolio/static/media/AboutMe.9088e23d88b25900d704.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.f7308c28be9802cd5349.pdf",
@@ -17,11 +17,11 @@
     "static/media/linkedin-dark.svg": "/portfolio/static/media/linkedin-dark.4849f84a7e76fde3e7508ef828cf6d7b.svg",
     "static/media/linkedin-light.svg": "/portfolio/static/media/linkedin-light.f52c806dae34fc7afae25af380bf8c66.svg",
     "index.html": "/portfolio/index.html",
-    "main.26d3079e.css.map": "/portfolio/static/css/main.26d3079e.css.map",
+    "main.b3a4c273.css.map": "/portfolio/static/css/main.b3a4c273.css.map",
     "main.c6b0d530.js.map": "/portfolio/static/js/main.c6b0d530.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d3079e.css",
+    "static/css/main.b3a4c273.css",
     "static/js/main.c6b0d530.js"
   ]
 }
