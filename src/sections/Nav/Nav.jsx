@@ -21,7 +21,8 @@ function Nav() {
         </button>
         <div className={`${styles.navLinks} ${menuOpen ? styles.show : ''}`}>
           <a href="#Home" className={styles.navLink}>Home</a>
-          <a href="#Education" className={styles.navLink}>Education</a>
+          <a href="#AboutMe" className={styles.navLink}>About Me</a>
+
           <a href="#Experience" className={styles.navLink}>Experience</a>
           <a href="#Projects" className={styles.navLink}>Projects</a>
           <a href="#Contacts" className={styles.navLink}>Contacts</a>

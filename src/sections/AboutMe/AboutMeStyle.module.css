@@ -1,0 +1,216 @@
+/* 
+.aboutMeSection {
+  padding: 50px 200px;
+  color: var(--text-color);
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.profilePicture {
+  width: 150px;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.aboutText {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.educationButton {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color);
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 500px;
+  transition: all 0.3s ease;
+}
+
+.educationButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.schoolLogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.buttonText {
+  text-align: left;
+}
+
+.buttonText p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.buttonText p:first-child {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .aboutMeSection {
+    padding: 30px 10px;
+  }
+
+  .sectionTitle {
+    font-size: 2rem; 
+    margin-bottom: 15px; 
+  }
+
+  .profilePicture {
+    width: 100px;
+    height: 180px; 
+  }
+
+  .contentContainer {
+    gap: 10px;
+  }
+
+  .educationButton {
+    width: 100%; 
+  }
+}
+
+ */
+
+ .aboutMeSection {
+  padding: 50px 250px;
+  color: var(--text-color);
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  margin-bottom: 100px;
+  text-align: center; /* Center-align title */
+}
+
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.profilePicture {
+  width: 150px;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: cover; /* Better fit for images */
+}
+
+.textContent {
+  flex: 1;
+}
+
+.aboutText {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.educationButton {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color);
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 600px; /* Set a specific width */
+  transition: all 0.3s ease;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.educationButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.schoolLogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.buttonText {
+  text-align: left;
+  flex: 1; /* Allow text to fill remaining space */
+}
+
+.buttonText p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.buttonText p:first-child {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .aboutMeSection {
+    padding: 30px 10px; /* Adjusted padding */
+  }
+
+  .sectionTitle {
+    font-size: 2rem; /* Reduced font size */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+
+
+  .contentContainer {
+    flex-direction: row; /* Stack content vertically */
+    align-items: center; /* Center-align content */
+    gap: 10px; /* Reduced gap */
+    margin-top: 125px;
+    margin-bottom: 25px;
+  }
+
+  .profilePicture {
+    width: 100px; /* Reduced width */
+    height: 180px; /* Reduced height */
+  }
+
+  .educationButton {
+    width: 100%; /* Full width */
+    max-width: none; /* Remove maximum width restriction */
+  }
+
+  .schoolLogo {
+    width: 30px; /* Reduced size */
+    height: 30px; /* Reduced size */
+    margin-bottom: 10px; /* Margin below logo */
+  }
+  .aboutText {
+    font-size: 12px;
+  }
+  .buttonText {
+
+    text-align: center; /* Center-align text content */
+  }
+  .buttonText p{
+    font-size: 12px;
+
+  }
+}
+
+  

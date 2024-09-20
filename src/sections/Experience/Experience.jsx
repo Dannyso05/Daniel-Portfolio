@@ -9,30 +9,38 @@ const experiences = [
     title: 'AI Researcher',
     company_name: 'RemitBee',
     points: [
-      'Developed and maintained web applications using React and Node.js.',
-      'Led a team of developers in agile sprints.',
+      'Developed & Deployed machine learning models to extract insights for business decision making, including fraud detection, and currency rate forecasting to increase efficiency.',
+      'Constructed a Retrieval-Augmented Generation pipeline, integrating generative AI technologies to design an interactive agentic chatbot.',
+      'Utilized Docker to create and manage containers for deploying ML and AI services on the company cloud.'
     ],
     icon: 'https://media.licdn.com/dms/image/D560BAQHXF0aj61L95g/company-logo_200_200/0/1719943358140/remitbee_logo?e=1730332800&v=beta&t=S1t6t6j7qtd3wrqFxjd6FPsLJ8Jbvk0KAJ6wgH9fJEA',
-    iconBg: '#ff5722',
+    iconBg: '#fff',
   },
   {
     date: 'Jan 2024 - June 2024',
     title: 'Data Engineer',
     company_name: 'Countable',
     points: [
-      'Worked on backend services and APIs using Python and Django.',
-      'Implemented new features based on client requirements.',
+      ' Built pipelines to aggregate, and transform Alberta government bill data onto the company database using Python, and generative AI integrating it with a Flask back-end to provide a scalable, secure API service.',
+      'Utilized Python, BeautifulSoup4, Selenium, and Generative AI to implement a web scraping methods to automate data extraction and processing with high accuracy and quality, and deployed the solution on the company platform.'
     ],
     icon: 'https://media.licdn.com/dms/image/D560BAQE4t8hUWeRnnA/company-logo_200_200/0/1697180219839/countable_io_logo?e=1730332800&v=beta&t=BFLGFVsUjAs0o3tsp3UGwmGCWrTx4OMgpgl0Kc9LMAc',
-    iconBg: '#3f51b5',
+    iconBg: '#fff',
   },
 ];
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentClassName={styles.verticalTimelineElement}
-      contentArrowClassName={styles.verticalTimelineElementArrow}
+      contentStyle={{'background-color': 'var(--background-color)',
+                     'box-shadow': '0 4px 8px var(--background-color)'
+
+      }}
+    
+      contentArrowStyle={{ 
+        'border-right': '7px solid var(--background-color)',
+      }}
+      
       date={experience.date}
       iconStyle={{
         background: experience.iconBg,
@@ -72,7 +80,7 @@ const Experience = () => {
   return (
     <section id="Experience" className={styles.experienceContainer}>
       <div className={styles.title}>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+      <h1 style={{ textAlign: "center", paddingBottom: "50px", paddingTop: "20px"}}>Work Expereince</h1>
       </div>
 
       <div className={styles.verticalTimelineWrapper}>

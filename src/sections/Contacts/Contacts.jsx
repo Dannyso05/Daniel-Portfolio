@@ -2,8 +2,9 @@ import styles from './ContactsStyle.module.css';
 
 function Contacts() {
   return (
+    <>
     <section id="contact" className={styles.container}>
-      <h1 className="sectionTitle">Contact</h1>
+      <h1 className="sectionTitle">Contacts</h1>
       <form action="https://formspree.io/f/xldrjvzq" method='POST'>
         <div className="formGroup">
           <label htmlFor="name" hidden>
@@ -42,6 +43,8 @@ function Contacts() {
         <input className="hover btn" type="submit" value="Submit" />
       </form>
     </section>
+      
+    </>
   );
 }
 
