@@ -24,7 +24,7 @@
 }
 
 .blob {
-  background-image: url(https://media.licdn.com/dms/image/D5603AQHNBrcGY4EF_Q/profile-displayphoto-shrink_400_400/0/1703795023034?e=1727308800&v=beta&t=zTXW0Y-ZQn1wVnglGmbWZwhHVrQt2NuO1N54jACTWkE);
+  background-image: url('../../assets/1703795023034.jpeg');
   width: 400px;
   height: 400px;
   background-size: cover;
