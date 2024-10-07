@@ -5,8 +5,6 @@ import CVLight from "../../assets/Resume-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CVDark from "../../assets/Resume-dark.svg";
-
-import CV from "../../assets/Resume.pdf";
 import { useTheme } from "../common/ThemeContext";
 
 function Hero() {
@@ -32,7 +30,7 @@ function Hero() {
               <a href="https://github.com/Dannyso05">
                 <img src={githubIcon} alt="GithubIcon" />
               </a>
-              <a href={CV}>
+              <a href="https://drive.google.com/file/d/1lHHTKNt1_dDs_akQFzFbMMrdQMeIVzib/view?usp=sharing">
                 <img src={CVicon} alt="ResumeIcon" />
               </a>
             </span>
